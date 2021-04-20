@@ -1,0 +1,36 @@
+
+*{
+    font-family: 'sans-serif';
+}
+body{
+    background-color: #62C8E4;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    
+}
+div{
+    background-color:  #16a085;
+}
+ul li{
+    display: inline;
+}
+.indexdiv{
+    width: 25%;
+    height: 30%;
+    margin: 20px;
+    padding-left:20px;
+}
+ 
+.detailsdiv{
+    display: flex;
+    justify-content: center;
+
+}
+.favdiv{
+    width: 50%;
+    height: 30%;
+    margin: 20px;
+    padding-left:20px; 
+}

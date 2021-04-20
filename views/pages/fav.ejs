@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-include(../layout/head.ejs)%>
+
+<body>
+    <%-include(../layout/header.ejs)%>
+
+    <main class="main">
+        <div class="favdiv">
+            <% data.forEach(elem =>{%>
+                <h3><%=elem.character%></h3>
+                <p><%=elem.quote%></p>
+                <img src="<%=elem.image%>" alt="">
+
+                <a href="/favorite-quotes/<%=elem.id%>">details</a>
+                <%})%>
+        </div>
+    </main>
+</body>
+</html>
